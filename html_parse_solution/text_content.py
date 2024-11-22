@@ -17,5 +17,5 @@ class TextContent:
             return self.text, False
 
     def get_text(self):
-        return self.text.strip()
+        return self.text
     

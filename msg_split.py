@@ -37,7 +37,7 @@ if __name__ == '__main__':
         # splitter_end = time.perf_counter()
         # print("splitter time: " + str(splitter_end - splitter_start))
         for number, fragment in enumerate(split_message(html_content, args.max_len), start=1):
-            print(f'fragment #{number}: {len(fragment)} chars.')
+            print(f'-- fragment #{number}: {len(fragment)} chars --')
             print(fragment)
     except Exception as e:
         print(f"Error: {e}")

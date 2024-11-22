@@ -17,5 +17,6 @@ class TextContent:
             return self.text, False
 
     def get_text(self):
-        return self.text
+        # return self.text # If you want the number of chars to match the one in the example
+        return self.text.split() # It`s better to split because the fewer chars go into the network, the better
     

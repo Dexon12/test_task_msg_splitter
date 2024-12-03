@@ -18,5 +18,5 @@ class TextContent:
 
     def get_text(self):
         # return self.text # If you want the number of chars to match the one in the example
-        return self.text.split() # It`s better to split because the fewer chars go into the network, the better
+        return self.text.strip() # It`s better to strip because the fewer chars go into the network, the better
     
